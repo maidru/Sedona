@@ -1,8 +1,200 @@
 body {
+  min-width: 1280px;
+  margin: 0;
+  padding: 0;
   font-family: PT Sans, Arial, sans-serif;
   font-size: 14px;
   line-height: 26px;
   color: #000000;
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-image {
+  float: left;
+  width: 100%;
+}
+
+.image-mask {
+  float: left;
+  width: 100%;
+  height: 57px;
+}
+
+.main-nav {
+  float: left;
+  width: 100%;
+}
+
+.main-nav li {
+  display: inline;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.main-nav li:nth-child(n+3) {
+  float: right;
+  margin-right: 6%;
+}
+
+.sedona-info {
+  width: 100%;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.info-block {
+  float: left;
+  width: 100%;
+  display: inline-block;
+  margin-top: 60px;
+}
+
+.text-area {
+  float: left;
+  width: 400px;
+  height: 256px;
+  text-align: center;
+}
+
+.img-area {
+  width: 66%;
+  height: 256;
+  float: right;
+}
+
+.features {
+  width: 100%;
+  float: left;
+  margin-top: 60px;
+}
+
+.features-box {
+  width: 33%;
+  float: left;
+  display: inline-block;
+  text-align: center;
+}
+
+.facts {
+  float: left;
+  width: 100%;
+  display: inline-block;
+  height: 256px;
+}
+
+.facts-box {
+  width: 33%;
+  float: left;
+  display: inline-block;
+  text-align: center;
+}
+
+.filter {
+  width: 100%;
+  float: left;
+}
+
+.filter-bg {
+  width: 100%;
+}
+
+.filter-left {
+  float: left;
+}
+
+.column {
+  display: inline-block;
+}
+
+.main-filter {
+  float: left;
+  width: 100%;
+  height: 87px;
+}
+
+.main-left {
+  float: left;
+  width: 90%;
+}
+
+.sort-rating {
+  float: right;
+}
+
+.main-right {
+  float: right;
+  width: 10%;
+}
+
+.searched {
+  float: left;
+  width: 135px;
+  height: 87px;
+}
+
+.elements {
+  float: left;
+  width: 500px;
+}
+
+ul.elements li {
+  display: inline-block;
+}
+
+.filter-right {
+  float: right;
+}
+
+.result {
+  width: 100%;
+  float: left;
+}
+
+.r-hotel {
+  width: 100%;
+  display: inline-block;
+}
+
+.result-img {
+  float: left;
+}
+
+.result-inf {
+  float: left;
+  margin-left: 40px;
+}
+
+.result-rating {
+  float: right;
+}
+
+.footer {
+  float: left;
+  width: 100%;
+}
+
+.map {
+  float: left;
+  width: 100%;
+}
+
+.footer-block {
+  width: 33%;
+  display: inline-block;
+  height: 120px;
+  text-align: center;
 }
 
 h1 {
