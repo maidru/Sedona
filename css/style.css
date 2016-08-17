@@ -101,6 +101,12 @@ body {
   text-align: center;
 }
 
+.search-hotel {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
 .filter {
   width: 100%;
   float: left;
