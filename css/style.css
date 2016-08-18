@@ -22,8 +22,34 @@ body {
 }
 
 .header-image {
+  background: url(../img/header-bg.jpg);
   float: left;
   width: 100%;
+  height: 508px;
+  background-size: cover;
+  margin-bottom: 60px;
+}
+
+.main-image-blur {
+  background: url(../img/header-bg2.png);
+  width: 100%;
+  height: 217px;
+}
+
+
+.main-header {
+  position: relative;
+  width: 100%;
+  height: 56px;
+}
+
+#main-logo {
+  background: url(../img/logo.png);
+  width: 138px;
+  height: 70px;
+  position: absolute;
+  left: 530px;
+  
 }
 
 .image-mask {
@@ -37,20 +63,23 @@ body {
   width: 100%;
 }
 
+nav > ul {
+  padding-left: 0;
+}
+
 .main-nav li {
   display: inline;
-  margin-left: 6%;
-  margin-right: 6%;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 
 .main-nav li:nth-child(n+3) {
   float: right;
-  margin-right: 6%;
+  padding-left: 6%;
 }
 
 .sedona-info {
   width: 100%;
-  margin-top: 60px;
   text-align: center;
 }
 
@@ -61,17 +90,30 @@ body {
   margin-top: 60px;
 }
 
-.text-area {
+.info-block-text {
   float: left;
   width: 400px;
   height: 256px;
   text-align: center;
 }
 
-.img-area {
+.info-block-img {
   width: 66%;
   height: 256;
   float: right;
+}
+
+.info-block-text-right {
+  float: right;
+  width: 400px;
+  height: 256px;
+  text-align: center;
+}
+
+.info-block-img-left {
+  width: 66%;
+  height: 256;
+  float: left;
 }
 
 .features {
@@ -120,42 +162,42 @@ body {
   float: left;
 }
 
-.column {
+.filter-left-column {
   display: inline-block;
 }
 
-.main-filter {
+.main-sorting {
   float: left;
   width: 100%;
   height: 87px;
 }
 
-.main-left {
+.main-sorting-left {
   float: left;
   width: 90%;
 }
 
-.sort-rating {
+.main-sorting-stars {
   float: right;
 }
 
-.main-right {
+.main-sorting-right {
   float: right;
   width: 10%;
 }
 
-.searched {
+.main-sorting-searched {
   float: left;
   width: 135px;
   height: 87px;
 }
 
-.elements {
+.main-sorting-elements {
   float: left;
   width: 500px;
 }
 
-ul.elements li {
+ul.main-sorting-elements li {
   display: inline-block;
 }
 
@@ -168,7 +210,7 @@ ul.elements li {
   float: left;
 }
 
-.r-hotel {
+.result-hotel {
   width: 100%;
   display: inline-block;
 }
@@ -186,15 +228,20 @@ ul.elements li {
   float: right;
 }
 
-.footer {
+.main-footer {
   float: left;
   width: 100%;
+  background: url(../img/footer.png);
+  height: 120px;
 }
 
 .map {
   float: left;
   width: 100%;
+  height: 473px;
+  background-size: cover;
 }
+
 
 .footer-block {
   width: 33%;
