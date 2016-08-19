@@ -166,6 +166,19 @@ nav > ul {
   display: inline-block;
 }
 
+.header-image-1 {
+  margin-left: 472px;
+  margin-top: 76px;
+}
+.header-image-2 {
+  margin-left: 371px;
+  margin-top: 52px;
+}
+.header-image-3 {
+  margin-left: 452px;
+  margin-top: 58px;
+}
+
 .main-sorting {
   float: left;
   width: 100%;
