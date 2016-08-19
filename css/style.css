@@ -6,6 +6,7 @@ body {
   font-size: 14px;
   line-height: 26px;
   color: #000000;
+  background-color: #f2f2f2;
 }
 
 .clearfix::after {
@@ -34,6 +35,7 @@ body {
   background: url(../img/header-bg2.png);
   width: 100%;
   height: 217px;
+  margin-top: -2px;
 }
 
 
@@ -52,15 +54,10 @@ body {
   
 }
 
-.image-mask {
-  float: left;
-  width: 100%;
-  height: 57px;
-}
-
 .main-nav {
   float: left;
   width: 100%;
+  background-color: #ffffff;
 }
 
 nav > ul {
@@ -88,6 +85,7 @@ nav > ul {
   width: 100%;
   display: inline-block;
   margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .info-block-text {
@@ -95,6 +93,7 @@ nav > ul {
   width: 400px;
   height: 256px;
   text-align: center;
+
 }
 
 .info-block-img {
@@ -108,6 +107,8 @@ nav > ul {
   width: 400px;
   height: 256px;
   text-align: center;
+
+
 }
 
 .info-block-img-left {
@@ -119,7 +120,6 @@ nav > ul {
 .features {
   width: 100%;
   float: left;
-  margin-top: 60px;
 }
 
 .features-box {
@@ -141,6 +141,7 @@ nav > ul {
   float: left;
   display: inline-block;
   text-align: center;
+
 }
 
 .search-hotel {
