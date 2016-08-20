@@ -105,7 +105,7 @@ nav > ul {
 
 .info-block-img {
   width: 66%;
-  height: 256;
+  height: 256px;
   float: right;
 }
 
@@ -120,7 +120,7 @@ nav > ul {
 
 .info-block-img-left {
   width: 66%;
-  height: 256;
+  height: 256px;
   float: left;
 }
 
