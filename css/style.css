@@ -21,8 +21,9 @@ h1 {
 h2 {
   font-family: PT Sans, Arial, sans-serif;
   font-size: 21px;
-  line-height: 21px;
+  line-height: 26px;
   color: #000000;
+  font-weight: bold;
 }
 
 h3 {
@@ -75,7 +76,7 @@ h3 {
 .main-image-blur {
   background: url(../img/header-bg2.png);
   width: 100%;
-  height: 217px;
+  min-height: 217px;
   margin-top: -2px;
 }
 
@@ -124,6 +125,30 @@ nav > ul {
   font-weight: bold;
 }
 
+.main-nav a.active {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 26px;
+  color: #766357;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+
+.main-nav a.active:hover {
+  color: #604e43;
+}
+
+.main-nav a.active:active {
+  color: #d8d3d0;
+}
+
+.main-nav a:hover {
+  color: #81b3d2;
+}
+
+.main-nav a:active {
+  color: #b2b2b2;
+}
 
 .sedona-info {
   width: 100%;
@@ -135,17 +160,17 @@ nav > ul {
   float: left;
   width: 1200px;
   height: 256px;
-  display: inline-block;
   margin-top: 60px;
 }
 
 .info-block-text {
   float: left;
   width: 400px;
-  height: 256px;
+  min-height: 256px;
   text-align: center;
   background-color: #81b3d2;
   color: #ffffff;
+
 }
 
 .info-block-text h2 {
@@ -162,7 +187,7 @@ nav > ul {
 .info-block-text-right {
   float: right;
   width: 400px;
-  height: 256px;
+  min-height: 256px;
   text-align: center;
   background-color: #81b3d2;
   color: #ffffff;
@@ -175,7 +200,7 @@ nav > ul {
 
 .info-block-img-left {
   width: 66%;
-  height: 256px;
+  min-height: 256px;
   float: left;
 }
 
@@ -187,9 +212,9 @@ nav > ul {
 
 .features-box {
   width: 33%;
-  float: left;
   display: inline-block;
   text-align: center;
+  vertical-align: middle;
 }
 
 .facts {
@@ -202,6 +227,7 @@ nav > ul {
   line-height: 21px;
   color: #333333;
   font-family: PT Sans, Arial, sans-serif;
+  vertical-align: middle;
 }
 
 .facts h2 {
@@ -210,9 +236,9 @@ nav > ul {
 
 .facts-box {
   width: 33%;
-  float: left;
   display: inline-block;
   text-align: center;
+  vertical-align: middle;
 }
 
 .search-hotel {
@@ -301,7 +327,7 @@ nav > ul {
 .drop-form-arrival {
   margin-bottom: 39px;
   font-size: 14px;
-  line-height: 26px;
+  line-height: 35px;
   font-weight: bold;
   position: relative;
 }
@@ -353,7 +379,7 @@ nav > ul {
   content: "";
   position: absolute;
   left: 177px;
-  top: 203px;
+  top: 221px;
   width: 12px;
   height: 3px;
   background: transparent url("../img/spritesheet.png") no-repeat;
@@ -364,7 +390,7 @@ nav > ul {
   content: "";
   position: absolute;
   left: 177px;
-  top: 203px;
+  top: 221px;
   width: 12px;
   height: 3px;
   background: transparent url("../img/spritesheet.png") no-repeat;
@@ -375,7 +401,7 @@ nav > ul {
   content: "";
   position: absolute;
   left: 177px;
-  top: 203px;
+  top: 221px;
   width: 12px;
   height: 3px;
   background: transparent url("../img/spritesheet.png") no-repeat;
@@ -386,7 +412,7 @@ nav > ul {
   content: "";
   position: absolute;
   left: 257px;
-  top: 199px;
+  top: 217px;
   width: 11px;
   height: 11px;
   background: transparent url("../img/spritesheet.png") no-repeat;
@@ -397,7 +423,7 @@ nav > ul {
   content: "";
   position: absolute;
   left: 257px;
-  top: 199px;
+  top: 217px;
   width: 11px;
   height: 11px;
   background: transparent url("../img/spritesheet.png") no-repeat;
@@ -408,7 +434,7 @@ nav > ul {
   content: "";
   position: absolute;
   left: 257px;
-  top: 199px;
+  top: 217px;
   width: 11px;
   height: 11px;
   background: transparent url("../img/spritesheet.png") no-repeat;
@@ -419,7 +445,7 @@ nav > ul {
   content: "";
   position: absolute;
   left: 410px;
-  top: 203px;
+  top: 221px;
   width: 12px;
   height: 3px;
   background: transparent url("../img/spritesheet.png") no-repeat;
@@ -430,7 +456,7 @@ nav > ul {
   content: "";
   position: absolute;
   left: 410px;
-  top: 203px;
+  top: 221px;
   width: 12px;
   height: 3px;
   background: transparent url("../img/spritesheet.png") no-repeat;
@@ -441,7 +467,7 @@ nav > ul {
   content: "";
   position: absolute;
   left: 410px;
-  top: 203px;
+  top: 221px;
   width: 12px;
   height: 3px;
   background: transparent url("../img/spritesheet.png") no-repeat;
@@ -452,7 +478,7 @@ nav > ul {
   content: "";
   position: absolute;
   left: 490px;
-  top: 199px;
+  top: 217px;
   width: 11px;
   height: 11px;
   background: transparent url("../img/spritesheet.png") no-repeat;
@@ -463,7 +489,7 @@ nav > ul {
   content: "";
   position: absolute;
   left: 490px;
-  top: 199px;
+  top: 217px;
   width: 11px;
   height: 11px;
   background: transparent url("../img/spritesheet.png") no-repeat;
@@ -474,7 +500,7 @@ nav > ul {
   content: "";
   position: absolute;
   left: 490px;
-  top: 199px;
+  top: 217px;
   width: 11px;
   height: 11px;
   background: transparent url("../img/spritesheet.png") no-repeat;
@@ -500,6 +526,17 @@ input[type="date"] {
   height: 38px;
   float: right;
 
+}
+
+input[type="date"]:hover {
+  background-color: #ebebeb;
+}
+
+input[type="date"]:focus {
+  background-color: #ffffff;
+  border: 2px solid #ebebeb;
+  width: 342px;
+  height: 34px;
 }
 
 input[type="text"] {
@@ -657,6 +694,7 @@ input[type="text"] {
 
 .filter-left-column {
   display: inline-block;
+  vertical-align: top;
   margin-left: 72px;
   margin-right: 40px;
 }
@@ -716,22 +754,70 @@ input[type="checkbox"]:checked + .checkbox-indicator::after {
 .main-sorting {
   float: left;
   width: 100%;
-  height: 87px;
+  border-bottom: 1px solid #e5e5e5;
 }
+
+
 
 .main-sorting-left {
   float: left;
-  width: 90%;
+  width: 80%;
 }
 
-.main-sorting-stars {
-  float: right;
-}
 
 .main-sorting-right {
   float: right;
-  width: 10%;
+  width: 50px;
+  margin-right: 72px;
+  margin-top: 30px;
+  text-align: right;
+  position: relative;
 }
+
+.sorting-btn-up {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  background-position: -84px -187px;
+  width: 11px;
+  height: 10px;
+}
+
+.sorting-btn-down {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  background-position: -112px -253px;
+  width: 11px;
+  height: 10px;
+}
+
+.sorting-btn-up:hover {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  background-position: -84px -219px;
+  width: 11px;
+  height: 10px;
+}
+
+.sorting-btn-up:active {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  background-position: -84px -253px;
+  width: 11px;
+  height: 10px;
+}
+
 
 .main-sorting-searched {
   float: left;
@@ -739,36 +825,198 @@ input[type="checkbox"]:checked + .checkbox-indicator::after {
   height: 87px;
 }
 
+.main-sorting-searched > h2 {
+  padding-top: 12px;
+}
+
 .main-sorting-elements {
+  font-size: 12px;
+  line-height: 87px;
   float: left;
   width: 500px;
+  height: 87px;
+  margin: 0;
 }
 
 ul.main-sorting-elements li {
   display: inline-block;
+  padding-right: 30px;
+}
+
+.main-sorting-elements a {
+  text-decoration: none;
+  color: #cccccc;
+  border-bottom: 1px dotted rgba(129,179,210, 1.0);
+}
+
+.main-sorting-elements a:hover {
+  color: #81b3d2;
+}
+
+.main-sorting-elements a:active {
+  color: #000000;
+  border: none;
+}
+
+.main-sorting-elements a.active {
+  border: none;
+  color: #81b3d2;
+}
+
+
+.main-sorting-title {
+  margin-right: 38px;
+  font-weight: bold;
+
 }
 
 .result {
   width: 100%;
-  float: left;
 }
 
 .result-hotel {
-  width: 100%;
-  display: inline-block;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .result-img {
   float: left;
+  height: 90px;
+  margin-top: 30px;
 }
 
 .result-inf {
   float: left;
   margin-left: 40px;
+  margin-top: 27px;
+}
+
+a.result-hotel-name {
+  text-decoration: none;
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #000000;
+}
+
+a.result-hotel-name:hover {
+  color: #81b3d2;
+}
+
+a.result-hotel-name:active {
+  color: #cacaca;
+}
+
+.result-inf-type {
+  color: #333333;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.type-hotel {
+  margin-right: 38px;
+}
+
+.type-rating {
+  font-size: 14px;
+  line-height: 27px;
+  padding: 5px 16px;
+  height: 27px;
+  background-color: #f2f2f2;
+  color: #666666;
+  margin-top: 40px;
+}
+
+
+a.btn-more {
+  padding: 0 17px;
+  height: 27px;
+  display: inline-block;
+  background-color: #81b3d2;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.btn-more:hover {
+  background-color: #669ec0;
+}
+
+a.btn-more:active {
+  background-color: #5496bd;
+  color: rgba(255,255,255, 0.3);
+}
+
+a.btn-book {
+  padding: 0 17px;
+  height: 27px;
+  display: inline-block;
+  background-color: #766357;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.btn-book:hover {
+  background-color: #604e43;
+}
+
+a.btn-book:active {
+  background-color: #503e33;
+  color: rgba(255,255,255, 0.3);
 }
 
 .result-rating {
   float: right;
+  margin-right: 72px;
+  margin-top: 30px;
+  padding-top: 64px;
+  position: relative;
+}
+
+.stars {
+  position: absolute;
+  top: -2px;
+  right: 0px;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  background-position: -35px -271px;
+  width: 94px;
+  height: 18px;
+}
+
+.stars2 {
+  position: absolute;
+  top: -2px;
+  right: 0px;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  background-position: -35px -271px;
+  width: 54px;
+  height: 18px;
+}
+
+.stars3 {
+  position: absolute;
+  top: -2px;
+  right: 0px;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  background-position: -35px -271px;
+  width: 74px;
+  height: 18px;
+}
+
+.main-sorting-searched {
+  margin-left: 72px;
+  height: 87px;
+}
+
+.result-img {
+  margin-left: 72px;
 }
 
 .map {
@@ -782,6 +1030,7 @@ ul.main-sorting-elements li {
 .icon {
   display: inline-block;
   vertical-align: middle;
+  margin-left: 5px;
   width: 46px;
   height: 48px;
   background: #81b3d2 url("../img/spritesheet.png") no-repeat center;
@@ -869,6 +1118,7 @@ ul.main-sorting-elements li {
   height: 39px;
   background-position: -10px -69px;
 }
+
 
 
 

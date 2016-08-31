@@ -14,7 +14,7 @@
                 	<ul>
                     	<li><a href="#">Информация</a></li>
                     	<li><a href="#">Фото и видео</a></li>
-                    	<li><a href="#">Гостиницы</a></li>
+                    	<li><a href="#" class="active">Гостиницы</a></li>
                     	<li><a href="#">Карта штата</a>
                 	</ul>
             	</nav>
@@ -26,8 +26,8 @@
         	</header>
 
         	<main>
-            	<div class="main-image-blur">
-                    <form>
+            	<div class="main-image-blur clearfix">
+                    <form name="hotel-filtr" method="post" action="search.html">
                     	<div class="filter-left">
                         	<div class="filter-left-column">
                         		<h3>Инфроструктура:</h3>
@@ -88,25 +88,26 @@
                         	<h2>Найдено: 3</h2>
                     	</div>
                         <ul class="main-sorting-elements">
-                        	<span>Сортировка:</span>
-                            <li><a>По цене</a></li>
+                        	<li class="main-sorting-title">Сортировка:</li>
+                            <li><a class="active">По цене</a></li>
                             <li><a href="#">По типу</a></li>
                             <li><a href="#">По рейтингу</a></li>
                         </ul>
                 	</div>
                 	<div class="main-sorting-right">
-                    	<div class="main-sorting-stars"></div>
+                    	<a href="#" class="sorting-btn-up"></a>
+                    	<a href="#" class="sorting-btn-down"></a>
                 	</div>
             	</section>
             	
 
-            	<article class="result">
-                	<div class="result-hotel">
+            	<section class="result">
+                	<div class="result-hotel clearfix">
                     	<div class="result-img">
                         	<img src="img/result1.jpg" width="135" height="90" alt="Amara Resort & Spa">
                     	</div>
                     	<div class="result-inf">
-                    		<h2><a href="#">Amara Resort & Spa</a></h2>
+                    		<a class="result-hotel-name" href="#">Amara Resort & Spa</a>
                             <div class="result-inf-type">
                             	<span class="type-hotel">Гостиница</span>
                             	<span class="type-price">От 3500р.</span>
@@ -122,12 +123,12 @@
                     	</div>
                 	</div>
 
-                	<div class="result-hotel">
+                	<div class="result-hotel clearfix">
                     	<div class="result-img">
                         	<img src="img/result2.jpg" width="135" height="90" alt="Desert Quail INN">
                     	</div>
                     	<div class="result-inf">
-                        	<h2><a href="#">Desert Quail Inn</a></h2>
+                        	<a class="result-hotel-name" href="#">Desert Quail Inn</a>
                             <div class="result-inf-type">
                             	<span class="type-hotel">Мотель</span>
                             	<span class="type-price">От 2000р.</span>
@@ -138,17 +139,17 @@
                             </div>
                     	</div>
                     	<div class="result-rating">
-                        	<span class="stars"></span>
+                        	<span class="stars2"></span>
                         	<span class="type-rating">Рейтинг: 8,9</span>
                     	</div>
                 	</div>
 
-                	<div class="result-hotel">
+                	<div class="result-hotel clearfix">
                     	<div class="result-img">
                         	<img src="img/result3.jpg" width="135" height="90" alt="Villas At Poco Diablo">
                     	</div>
                     	<div class="result-inf">
-                        	<h2><a href="#">Villas At Poco Diablo</a></h2>
+                        	<a class="result-hotel-name" href="#">Villas At Poco Diablo</a>
                             <div class="result-inf-type">
                             	<span class="type-hotel">Апартаменты</span>
                             	<span class="type-price">От 4000р.</span>
@@ -159,11 +160,11 @@
                             </div>
                     	</div>
                     	<div class="result-rating">
-                        	<span class="stars"></span>
+                        	<span class="stars3"></span>
                         	<span class="type-rating">Рейтинг: 9,2</span>
                     	</div>
                 	</div>
-            	</article>
+            	</section>
         	</main>
 
         	<footer class="main-footer">
