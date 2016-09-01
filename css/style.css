@@ -285,6 +285,7 @@ nav > ul {
   top: 293px;
   left: 316px;
   background-color: #ffffff;
+  display: none;
 
 }
 
@@ -1121,6 +1122,12 @@ a.btn-book:active {
   height: 39px;
   background-position: -10px -69px;
 }
+
+
+.drop-form-show {
+  display: block;
+}
+
 
 
 
