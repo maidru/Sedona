@@ -180,7 +180,9 @@ nav > ul {
 
 .info-block-text h2 {
   color: #ffffff;
-  margin-top: 47px;
+  margin-bottom: 20px;
+  margin-top: 55px;
+  line-height: 21px;
 }
 
 .info-block-img {
@@ -592,6 +594,8 @@ input[type="text"] {
 
 .price-controls {
   position: relative;
+  width: 315px;
+  margin-left: 13px;
   height: 34px;
   margin-bottom: 20px;
   font-size: 0;
@@ -646,7 +650,8 @@ input[type="text"] {
 
 .range-controls .scale {
   height: 2px;
-
+  width: 318px;
+  margin-left: 13px;
   background: rgba(255, 255, 255, 0.3);
 }
 
@@ -672,7 +677,7 @@ input[type="text"] {
 }
 
 .range-toggle-min {
-  left: 0;
+  left: 4%;
 }
 
 .range-toggle-max {
@@ -686,7 +691,7 @@ input[type="text"] {
 .btn-transparent {
   display: block;
   margin: 0 auto;
-  padding: 6px 35px;
+  padding: 6px 31px;
 
   font-size: 14px;
   line-height: 20px;
@@ -868,7 +873,8 @@ input[type="checkbox"]:checked + .checkbox-indicator::after {
 
 ul.main-sorting-elements li {
   display: inline-block;
-  padding-right: 30px;
+  padding-right: 28px;
+  vertical-align: middle;
 }
 
 .main-sorting-elements a {
@@ -892,12 +898,6 @@ ul.main-sorting-elements li {
 }
 
 
-.main-sorting-title {
-  margin-right: 38px;
-  font-weight: bold;
-
-}
-
 .result {
   width: 100%;
 }
@@ -915,7 +915,7 @@ ul.main-sorting-elements li {
 
 .result-inf {
   float: left;
-  margin-left: 40px;
+  margin-left: 30px;
   margin-top: 27px;
 }
 
@@ -938,12 +938,14 @@ a.result-hotel-name:active {
 
 .result-inf-type {
   color: #333333;
-  margin-top: 5px;
+  margin-top: 2px;
   margin-bottom: 10px;
 }
 
-.type-hotel {
-  margin-right: 38px;
+
+.result-inf .type-price {
+  margin-right: 80px;
+  float: right;
 }
 
 .type-rating {
@@ -1018,8 +1020,8 @@ a.btn-book:active {
 
 .stars2 {
   position: absolute;
-  top: -2px;
-  right: 0px;
+  top: -4px;
+  right: -5px;
   background-image: url(../img/spritesheet.png);
   background-repeat: no-repeat;
   background-position: -35px -271px;
@@ -1029,8 +1031,8 @@ a.btn-book:active {
 
 .stars3 {
   position: absolute;
-  top: -2px;
-  right: 0px;
+  top: -5px;
+  right: -5px;
   background-image: url(../img/spritesheet.png);
   background-repeat: no-repeat;
   background-position: -35px -271px;
