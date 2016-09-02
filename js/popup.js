@@ -5,4 +5,4 @@ var close = popup.querySelector(".drop-form");
 link.addEventListener("click", function(event) {
 	event.preventDefault();
 	popup.classList.toggle("drop-form-show");
-	});
+});
