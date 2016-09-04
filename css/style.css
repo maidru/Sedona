@@ -1,5 +1,5 @@
 body {
-  min-width: 1280px;
+  min-width: 1200px;
   margin: 0;
   padding: 0;
   font-family: PT Sans, Arial, sans-serif;
@@ -38,7 +38,6 @@ h3 {
 
 .clearfix::after {
   content: "";
-
   display: table;
   clear: both;
 }
@@ -91,7 +90,6 @@ h3 {
   position: absolute;
   left: 530px;
   z-index: 5;
-  
 }
 
 .main-nav {
@@ -175,7 +173,6 @@ nav > ul {
   background-color: #81b3d2;
   color: #ffffff;
   word-wrap: break-word;
-
 }
 
 .info-block-text h2 {
@@ -243,10 +240,11 @@ nav > ul {
 
 .facts h2 {
   padding-top: 24px;
-}
-
-.facts h2 {
   padding-bottom: 7px;
+  width: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .facts-box {
@@ -255,6 +253,12 @@ nav > ul {
   text-align: center;
   vertical-align: middle;
   word-wrap: break-word; 
+}
+
+.facts-box p {
+  width: 268px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .search-hotel {
@@ -269,7 +273,6 @@ nav > ul {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-
 }
 
 .search-hotel-area h1 {
@@ -299,7 +302,6 @@ nav > ul {
   left: 316px;
   background-color: #ffffff;
   display: none;
-
 }
 
 .drop-form-content {
@@ -403,7 +405,6 @@ nav > ul {
   font-weight: bold;
   display: inline-block;
   appearance: none;
-
 }
 
 .drop-form-minus {
@@ -556,7 +557,6 @@ input[type="date"] {
   width: 346px;
   height: 38px;
   float: right;
-
 }
 
 input[type="date"]:hover {
@@ -616,11 +616,9 @@ input[type="text"] {
 
 .price-controls label {
   display: inline-block;
-
   font-size: 14px;
   line-height: 38px;
   vertical-align: top;
-
   cursor: pointer;
 }
 
@@ -633,10 +631,8 @@ input[type="text"] {
 .price-controls input {
   width: 50px;
   margin: 0;
-
   color: inherit;
   font: inherit;
-
   background: none;
   border: none;
   outline: none;
@@ -644,7 +640,6 @@ input[type="text"] {
 
 .range-controls {
   position: relative;
-
   margin-bottom: 32px;
 }
 
@@ -658,7 +653,6 @@ input[type="text"] {
 .range-controls .bar {
   width: 80%;
   height: 2px;
-
   background: #ffffff;
 }
 
@@ -667,13 +661,11 @@ input[type="text"] {
   height: 4px;
   position: absolute;
   top: -9px;
-
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
   box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   cursor: pointer;
-
 }
 
 .range-toggle-min {
@@ -692,12 +684,10 @@ input[type="text"] {
   display: block;
   margin: 0 auto;
   padding: 6px 31px;
-
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
   text-transform: uppercase;
-
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 2px;
@@ -707,7 +697,6 @@ input[type="text"] {
 
 .btn-transparent:hover {
   color: #000000;
-
   background: #ffffff;
 }
 
@@ -749,7 +738,6 @@ input[type="checkbox"] + .checkbox-indicator {
   position: absolute;
   top: 2px;
   left: -35px;
-
   background-image: url(../img/spritesheet.png);
   background-repeat: no-repeat;
   background-position: -10px -355px;
@@ -770,6 +758,31 @@ input[type="checkbox"]:checked + .checkbox-indicator::after {
   height: 22px;
 }
 
+input[type="checkbox"]:disabled + .checkbox-indicator {
+  position: absolute;
+  top: 2px;
+  left: -35px;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  background-position: -10px -355px;
+  width: 22px;
+  height: 22px;
+  opacity: 0.4;
+}
+
+input[type="checkbox"]:disabled + .checkbox-indicator::before,
+input[type="checkbox"]:disabled + .checkbox-indicator::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  background-position: -10px -313px;
+  width: 26px;
+  height: 22px;
+  opacity: 0.4;
+}
 
 .header-image-1 {
   margin-left: 472px;
@@ -790,13 +803,10 @@ input[type="checkbox"]:checked + .checkbox-indicator::after {
   border-bottom: 1px solid #e5e5e5;
 }
 
-
-
 .main-sorting-left {
   float: left;
   width: 80%;
 }
-
 
 .main-sorting-right {
   float: right;
@@ -851,7 +861,6 @@ input[type="checkbox"]:checked + .checkbox-indicator::after {
   height: 10px;
 }
 
-
 .main-sorting-searched {
   float: left;
   width: 135px;
@@ -897,7 +906,6 @@ ul.main-sorting-elements li {
   color: #81b3d2;
 }
 
-
 .result {
   width: 100%;
 }
@@ -941,7 +949,6 @@ a.result-hotel-name:active {
   margin-top: 2px;
   margin-bottom: 10px;
 }
-
 
 .result-inf .type-price {
   margin-right: 80px;
@@ -1150,7 +1157,6 @@ a.btn-book:active {
   height: 39px;
   background-position: -10px -69px;
 }
-
 
 .drop-form-show {
   display: block;
